@@ -33,13 +33,15 @@
                             "id": 6,
                             "name": "博客",
                             "url": "https://blog.luode.vip/",
-                            "favicon": "/svg/blog.svg"
+                            "favicon": "/svg/blog.svg",
+                            "bgColor": "#1d3014"
                         },
                         {
                             "id": 3,
                             "name": "比特币",
                             "url": "https://btc.luode.vip/",
-                            "favicon": "/svg/btc.svg"
+                            "favicon": "/svg/btc.svg",
+                            "bgColor": "#4323fa"
                         }
                     ]
                 },
@@ -97,23 +99,23 @@
                         },
                         {
                             "id": 34,
-                            "name": "临时邮箱",
-                            "url": "https://temp-mail.org/zh/",
-                            "favicon": " https://temp-mail.org/images/favicon.ico",
+                            "name": "json工具",
+                            "url": "https://tool.lu/json/",
+                            "favicon": " https://tool.lu/favicon.ico",
                             "bgColor": "#330d3d"
                         },
                         {
                             "id": 67,
-                            "name": "蓝奏云",
-                            "url": "https://www.ilanzou.com/",
-                            "favicon": " https://www.ilanzou.com/favicon.ico",
+                            "name": "时间戳工具",
+                            "url": "https://tool.lu/timestamp/",
+                            "favicon": " https://tool.lu/favicon.ico",
                             "bgColor": "#2c0aa9"
                         },
                         {
                             "id": 70,
-                            "name": "虚拟号码",
-                            "url": "https://sms-activate.org/cn",
-                            "favicon": " https://smsactivate.s3.eu-central-1.amazonaws.com/assets/img/activate_favicon.png",
+                            "name": "蓝奏云",
+                            "url": "https://www.ilanzou.com/",
+                            "favicon": " https://www.ilanzou.com/favicon.ico",
                             "bgColor": "#056a92"
                         },
                         {
