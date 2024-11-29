@@ -4,7 +4,7 @@
 # 使用一个基础的Node.js镜像
 FROM node:18-alpine
 
-# 复制当前目录所有文件到 /aap下面
+# 复制当前目录所有文件到 /app 下面
 COPY . /app
 
 # 设置主目录为 / app

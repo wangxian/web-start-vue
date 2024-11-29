@@ -3,9 +3,9 @@
 
 <h1 align="center">简约风格的网址导航页</h1>
 
-[演示环境](https://www.luode.vip) 
+[演示环境](https://www.luode.vip)
 
-![Snipaste_2023-05-08_09-15-08](public/png/QQ截图20231019212432.png)
+![Snipaste_2023-05-08_09-15-08](QQ截图20231019212432.png)
 
 </div>
 
