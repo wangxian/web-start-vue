@@ -1,6 +1,6 @@
 FROM wangxian/nginx:latest
 
 WORKDIR /app
-COPY ./dist/* /app/public
+COPY ./dist /app/public
 
 EXPOSE 80

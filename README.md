@@ -3,6 +3,16 @@
 
 <h1 align="center">简约风格的网址导航页</h1>
 
+## 项目背景
+
+由于个人服务器内存较小，默认 web-start 项目直接使用 vite preview 占用内存较大，所以将其重新构建为 alpine-nginx 方式
+
+### 手工构建
+docker rmi -f wangxian/web-start:latest
+docker build -t wangxian/web-start:latest -f Dockerfile-nginx .
+docker run -it --rm wangxian/web-start:latest ls /app/public
+
+
 [演示环境](https://www.luode.vip)
 
 ![Snipaste_2023-05-08_09-15-08](QQ截图20231019212432.png)
