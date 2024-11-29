@@ -7,7 +7,7 @@ FROM node:18-alpine
 # 复制当前目录所有文件到 /app 下面
 COPY . /app
 
-# 设置主目录为 / app
+# 设置主目录为 /app
 WORKDIR /app
 
 # 安装依赖
