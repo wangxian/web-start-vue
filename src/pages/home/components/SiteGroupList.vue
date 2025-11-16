@@ -47,7 +47,7 @@ const renderStore = useRenderStore()
           <!-- Group header -->
           <div
             :class="{ 'cursor-pointer bg-$site-hover-c': settingStore.isSetting, 'mb-12 w-full': isXsScreen }"
-            shrink-0 w-72 style="width: 12%;"
+            shrink-0 w-72
             @click="handleGroupClick(i)"
           >
             <div
@@ -57,7 +57,6 @@ const renderStore = useRenderStore()
                 'hover:bg-$site-hover-c': settingStore.isSetting,
               }"
               flex items-center justify-between px-6 h-40
-              style="display: flex;justify-content: center;align-items: center;"
             >
               <div
                 :class="{ 'group__name pl-16 py-4': isXsScreen }"
