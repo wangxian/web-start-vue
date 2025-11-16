@@ -190,7 +190,7 @@
                             "id": 18,
                             "name": "优酷",
                             "url": "https://www.youku.com/",
-                            "favicon": " https://gw.alicdn.com/tfs/TB1ugm9f5cKOu4jSZKbXXc19XXa-356-76.png",
+                            "favicon": " https://www.youku.com/favicon.ico",
                             "bgColor": "#0c0756"
                         },
                         {
@@ -203,8 +203,8 @@
                         {
                             "id": 20,
                             "name": "磁力猫",
-                            "url": "https://clm.la/",
-                            "favicon": " https://clm41.top/static/img/logo.gif",
+                            "url": "https://clm51.top",
+                            "favicon": " https://clm51.top/favicon.ico",
                             "bgColor": "#251001"
                         }
                     ]
@@ -302,13 +302,6 @@
                     "name": "云计算",
                     "siteList": [
                         {
-                            "id": 246,
-                            "name": "NameSilo",
-                            "url": "https://www.namesilo.com/",
-                            "favicon": "https://tse1-mm.cn.bing.net/th/id/OIP-C.sRmAa_9qhaC6lxtVxyyMAgAAAA?w=133&h=150&c=7&r=0&o=5&pid=1.7",
-                            "bgColor": "#bd7a2a"
-                        },
-                        {
                             "id": 249,
                             "name": "Cloudflare",
                             "url": "https://www.cloudflare.com/",
@@ -335,6 +328,13 @@
                             "url": "https://activity.huaweicloud.com/",
                             "favicon": " https://www.huaweicloud.com/favicon.ico",
                             "bgColor": "#6b350b"
+                        },
+                        {
+                            "id": 246,
+                            "name": "NameSilo",
+                            "url": "https://www.namesilo.com/",
+                            "favicon": "https://www.namesilo.com/favicon.ico",
+                            "bgColor": "#bd7a2a"
                         }
                     ]
                 },
