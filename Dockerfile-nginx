@@ -1,4 +1,4 @@
-FROM wangxian/nginx:latest
+FROM wangxian/nginx:1.28.0
 
 WORKDIR /app
 COPY ./dist /app/public
