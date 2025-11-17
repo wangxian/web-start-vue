@@ -7,6 +7,8 @@
 
 由于个人服务器内存较小，默认 web-start 项目直接使用 vite preview 占用内存较大，所以将其重新构建为 alpine-nginx 方式
 
+docker buildx build -t wangxian/web-start:latest -t wangxian/web-start:v1.1 --platform=linux/arm/v7,linux/arm64,linux/amd64,linux/386 -f Dockerfile-nginx . --push
+
 ### 手工构建
 docker rmi -f wangxian/web-start:latest
 docker build -t wangxian/web-start:latest -f Dockerfile-nginx .
